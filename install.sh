@@ -19,7 +19,7 @@ sudo apt-get install -y rename
 sudo apt-get install -y xargs
 
 echo "installing bash_profile aliases from recon_profile"
-git clone https://github.com/nahamsec/recon_profile.git
+git clone https://github.com/studentelite/recon_profile.git
 cd recon_profile
 cat bash_profile >> ~/.bash_profile
 source ~/.bash_profile
