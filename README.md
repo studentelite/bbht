@@ -1,24 +1,21 @@
 # BBHT
 
 Bug Bounty Hunting Tools is a script to install the most popular tools used while looking for vulnerabilities for a bug bounty program.
+# edited simple version
  
 # Tools
 
 - dirsearch
 - JSParser
 - knockpy
-- lazys3
 - recon_profile
-- sqlmap-dev
 - Sublist3r
-- teh_s3_bucketeers
 - virtual-host-discovery
 - wpscan
 - webscreenshot
 - Massdns
 - Asnlookup
 - Unfurl
-- Waybackurls
 - Httprobe
 - Seclists collection
 
