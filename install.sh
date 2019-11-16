@@ -61,10 +61,6 @@ done
 fi
 
 
-#Don't forget to set up AWS credentials!
-echo "Don't forget to set up AWS credentials!"
-apt install -y awscli
-echo "Don't forget to set up AWS credentials!"
 
 
 
@@ -82,23 +78,11 @@ echo "Installing Chromium"
 sudo snap install chromium
 echo "done"
 
-echo "installing JSParser"
-git clone https://github.com/nahamsec/JSParser.git
-cd JSParser*
-sudo python setup.py install
-cd ~/tools/
-echo "done"
 
 echo "installing Sublist3r"
 git clone https://github.com/aboul3la/Sublist3r.git
 cd Sublist3r*
 pip install -r requirements.txt
-cd ~/tools/
-echo "done"
-
-
-echo "installing teh_s3_bucketeers"
-git clone https://github.com/tomdev/teh_s3_bucketeers.git
 cd ~/tools/
 echo "done"
 
@@ -116,21 +100,11 @@ cd ~/tools/
 echo "done"
 
 
-echo "installing lazys3"
-git clone https://github.com/nahamsec/lazys3.git
-cd ~/tools/
-echo "done"
-
 echo "installing virtual host discovery"
 git clone https://github.com/jobertabma/virtual-host-discovery.git
 cd ~/tools/
 echo "done"
 
-
-echo "installing sqlmap"
-git clone --depth 1 https://github.com/sqlmapproject/sqlmap.git sqlmap-dev
-cd ~/tools/
-echo "done"
 
 echo "installing knock.py"
 git clone https://github.com/guelfoweb/knock.git
@@ -140,10 +114,6 @@ echo "done"
 echo "installing lazyrecon"
 git clone https://github.com/nahamsec/lazyrecon.git
 cd ~/tools/
-echo "done"
-
-echo "installing nmap"
-sudo apt-get install -y nmap
 echo "done"
 
 echo "installing massdns"
@@ -168,9 +138,6 @@ echo "installing unfurl"
 go get -u github.com/tomnomnom/unfurl 
 echo "done"
 
-echo "installing waybackurls"
-go get github.com/tomnomnom/waybackurls
-echo "done"
 
 echo "downloading Seclists"
 cd ~/tools/
